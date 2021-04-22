@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Charlie Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+.header .title {
+    width: 400px;
+    margin: 48px auto;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.header .title img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.navigation_tabs {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: auto;
+    padding: 0px;
+}
+
+.navigation_tabs li:first-child {
+    border-left: solid 1px lightgray;
+    border-radius: 5px 0 0 0;
+}
+
+.navigation_tabs li:last-child {
+    border-radius: 0 5px 0 0;
+}
+
+.navigation_tabs li {
+    margin: 0;
+    padding: 15px 25px;
+    list-style: none;
+    background-color: lightgray;
+    border: solid 1px grey;
+    border-bottom: none;
+    border-left: none;
+}
+
+.navigation_tabs li:hover {
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+.navigation_tabs li.active {
+    background-color: #ececec;
+    cursor: default;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    border-top: solid 1px grey;
+}
+
+.tab_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 33%;
+    padding: 30px 10px;
+}
+
+.sidebar .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.items_navigation {
+    width: 100%;
+    padding: 0;
+}
+
+.items_navigation li {
+    padding: 15px 5px;
+    list-style: none;
+    color: grey;
+    border-top: solid 1px gray;
+}
+
+.items_navigation li:last-child {
+    border-bottom: solid 1px gray;
+}
+
+.items_navigation li:hover {
+    background-color: #f1f1f1;
+}
+
+.items_navigation li .title {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.main {
+    max-width: 66%;
+    padding: 30px 10px;
+}
+
+.main .title {
+    margin: 0 0 30px 0;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.main .speaker {
+    font-weight: bold;
+}
+
+.main a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.main .subtitle {
+    margin: 0 0 30px 0;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
